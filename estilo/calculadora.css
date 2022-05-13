@@ -19,8 +19,6 @@ input{
     display: inline-block;
     background-color: #191919;
     border-radius: 5%;
-    height: 450px;
-    width: 300px;
 }
 
 .num-cor{
@@ -28,7 +26,7 @@ input{
     width: 64px;
     height: 67px;
     cursor: pointer;
-    margin-left: 6px;
+    
     
 }
 
@@ -48,8 +46,7 @@ input{
     margin-bottom: 12px;
     color: #fff;
     background-color: #000;
-    margin-top: 50px;
-    margin-left: 15px;
+    
 
 }
 
