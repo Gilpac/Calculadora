@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/calculadora.css">
     <title>Calculadora</title>
 </head>
 <body>
     <div class="main">
-        <form action="" name="calculadora">
-            <input type="text" class="texto-cor" name="text1" value="" desabled>
+        <form action="" name="calculadoraa">
+            <input type="text" class="texto-cor" name="text1" desabled>
             <input type="text" class="texto-cor" name="text2" value="C" onclick="location.reload()"><br>
             
             <input type="button" class="num-color" name="btn9" value="9" onclick="displaynum(btn9.value)">
@@ -29,16 +30,11 @@
 
             <input type="button" class="num-color" name="btn0" value="0" onclick="displaynum(btn0.value)">
             <input type="button" class="num-color" name="btnponto" value="." onclick="displaynum(btnponto.value)">
-            <input type="button" class="num-color" name="igualbtn" value="=" onclick="displaynum(igualbtn.value)">
+            <input type="button" class="num-color" name="igualbtn" value="=" onclick="text1.value=eval(text1.value)">
             <input type="button" class="num-color" name="divbtn" value="/" onclick="displaynum(divbtn.value)"><br>
-
-
-
-
-
         </form>
 
     </div>
-
 </body>
+<script src="js/calculadora.js"></script>
 </html>
