@@ -4,11 +4,65 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #191919;
+    background-color: #000;
 }
 
 input{
     color: #fff;
     padding: 17px;
-    outline: none;
+    outline: none; 
+    font-size: 30px;
+    border-radius: 50%;
 }
+
+.main{
+    display: inline-block;
+    background-color: #191919;
+    border-radius: 5%;
+    height: 450px;
+    width: 300px;
+}
+
+.num-cor{
+    background-color: #000;
+    width: 64px;
+    height: 67px;
+    cursor: pointer;
+    margin-left: 6px;
+    
+}
+
+.laranja{
+    background-color: #0abab5;
+}
+.ponto{
+    background-color: #006400;
+}
+
+.texto-cor{
+    width: 168px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #fff;
+    background-color: #000;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+.text-cor{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #006400;
+
+}
+
